@@ -1,0 +1,38 @@
+#pagewrapper {
+  
+
+
+}
+
+#gamewrapper {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    //border: red solid 10px; 
+    padding: 10px;
+
+    flex-direction: column;
+
+    #buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    button {
+        margin: 5px;
+
+    }
+
+    }
+}
+#result {
+    font-size: smaller;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+

@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(white, gray);
+}
+
+#gamewrapper {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+#gamewrapper #buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#gamewrapper #buttons button {
+  margin: 5px;
+}
+
+#result {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
